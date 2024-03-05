@@ -17,3 +17,12 @@ $ npm i nodemon -D -E
 $ npm i dotenv -E
 ```
 ## Añadir el tipo module en el package.json
+"type": "module",
+
+```bash
+$ git init
+```
+
+```bash
+$ npm i mongoose -E
+```
