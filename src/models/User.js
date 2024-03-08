@@ -20,6 +20,10 @@ const UserSchema = new Schema(
             enum: ["super_admin", "admin", "user"],
             default: "user"
         },
+        favouriteBooks: [{
+            type: Schema.Types.ObjectId,
+            ref: "Book"
+        }],
         is_active: {
             type: Boolean,
             default: true

@@ -37,3 +37,7 @@ $ npm i mongoose -E
 
 Creamos rutas (router)
 Creamos modelo, controlador...
+
+
+git stash  - guardas los cambios, sin commitear, en un "cajón"
+git stash apply - recuperas los cambios
